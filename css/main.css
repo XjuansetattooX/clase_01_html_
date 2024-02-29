@@ -5,3 +5,69 @@ body{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.menu-arriba{
+    
+    height: 50px;
+    background-color: #8654e259;
+}
+.menu-icono{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position: relative;   
+    top: -213px;
+    right: 350px;
+    left: 350px;
+
+    display: inline-block;
+}
+.tools{
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.button-carrito{
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    display: inline-block;
+    
+}
+.button-usuario{
+    width: 36px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 3px;
+    right: 80px;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

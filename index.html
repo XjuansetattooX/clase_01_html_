@@ -8,73 +8,95 @@
 
 </head>
 <body>
-    <header>
-        <section>
-            <img src="./images/LOGO_.svg" alt="LOGO_">
-            <label for="menu">
-                <img src="./images/Asset 2.svg" class="menu-icono" alt="menu">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contactos</a></li>
-                </ul>
-            </nav>
+    <header class="menu-arriba">
+        <label class="label-nav-bar" for="menu">
+            <img src="./images/Asset 2.svg" class="menu-icono" alt="menu">
+        </label>
+        <nav class="nav-bar">
+            <ul class="text menu">
+                <li class="text nav"><a href="#">Inicio</a></li>
+                <li class="text nav"><a href="#">Quienes Somos</a></li>
+                <li class="text nav"><a href="#">Menu</a></li>
+                <li class="text nav"><a href="#">Proyectos</a></li>
+                <li class="text nav"><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+        <img src="./images/LOGO_.svg" alt="LOGO_" class="logo">
+        <div class="tools">
             <div id="carrito-compras">
-                <ul>
-                    <li>
-                        <img src="./images/carrito_.svg" id="img-carrito" alt="carrito">
-                        <div id="carrito">
-                            <table id="lista-carrito">
-                                <thead>
-                                    <tr>
-                                        <th>imagen</th>
-                                        <th>nombre</th>
-                                        <th>precio</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <a href="#">
-                <img src="./images/usuario_.svg" alt="usuario">
-            </a>
-        </section>
-        <div class="content">
-            <div class="search">
-                <a href="" target="_blank" hidden></a>
-                <input type="text" placeholder="Buscar....">
-                <div class="autocomplete">
+                <button class="button-carrito">
+                    <img src="./images/carrito_.svg" id="img-carrito" alt="carrito">
+                </button>
+                <div id="carrito">
+                    <ul class="ul-carrito">
+                        <li class="li-carrito gaseosa">
+                            <img src="" alt=""/>
+                            <p>gaseosa</p>
+                            <p>precio:$5000</p>
+                        </li>
+                        <li class="li-carrito papas">
+                             <img src="" alt="">
+                             <p>papas fritas</p>
+                             <p>precio:$3000</p>
+                        </li>
+                    </ul>
+                    <p class="total">total:<strong>$8000</strong></p>
+                    <button class="compra">comprar</button>
+                    <button class="vacias-carrito">Vaciar carrito</button>
                 </div>
-                <div class="icon">
-                    <i class="fas fa-search"></i></div>
+            </div>
+            <button class="button-usuario">
+                <img src="./images/usuario_.svg" alt="usuario">
+            </button>
+        </div>
+    </header>
+    <section class="section-top">
+        <h1>Esta Pagina Es De Prueba</h1>
+        <div class="content">
+             <div class="search">
+                 <img src="./images/lupa.png" alt="search">
+                 <input type="text" placeholder="Buscar....">
+                 <button class="localización">
+                    <img src="./images/herramienta.png" alt="localización">
+                    <span class="new-york">new york</span>
+                 </button>
+                 <span class="people">people</span>
             </div>
         </div>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Romantic</a></li>
-                    <li><a href="#">Adult Party</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Great For a Party</a></li>
-                    <li><a href="#">Exotic</a></li>
-                    <li><a href="#">Catering</a></li>
-                    <li><a href="#">Restaurant</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="nav-tools">
+            <ul class="nav">
+                <li class="text nav"><a href="#">Romantic</a></li>
+                <li class="text nav"><a href="#">Adult Party</a></li>
+                <li class="text nav"><a href="#">Delivery</a></li>
+                <li class="text nav"><a href="#">Great For a Party</a></li>
+                <li class="text nav"><a href="#">Exotic</a></li>
+                <li class="text nav"><a href="#">Catering</a></li>
+                <li class="text nav"><a href="#">Restaurant</a></li>
+            </ul>
+        </nav>
         <img src="./images/img_background_v01_.png" alt="img_background_v01_">
-        <h1>HOLA MUNDO</h1>
-    </header>
+        
+     </section>
+                 
+                 
+                 
+                
+        
+        
+        
+    
+ 
+     <script src="./js/main.js"></script>
+ </body>
 
-    <script src="./js/main.js"></script>
-</body>
+
+                        
+
+                        
+                            
+                                
+                                    
+                                
+                            
+                        
 </html>
