@@ -9,25 +9,27 @@
 </head>
 <body>
     <header class="menu-arriba">
-        <label class="label-nav-bar" for="menu">
-            <img src="./images/Asset 2.svg" class="menu-icono" alt="menu">
-        </label>
-        <nav class="nav-bar">
-            <ul class="text menu">
-                <li class="text nav"><a href="#">Inicio</a></li>
-                <li class="text nav"><a href="#">Quienes Somos</a></li>
-                <li class="text nav"><a href="#">Menu</a></li>
-                <li class="text nav"><a href="#">Proyectos</a></li>
-                <li class="text nav"><a href="#">Contactos</a></li>
-            </ul>
-        </nav>
+        <div class="contenedor-menu">
+            <button class="label-nav-bar" >
+                <img src="./images/Asset 2.svg" class="menu-icono" alt="menu">
+            </button>
+            <nav class="nav-bar">
+                <ul class="text menu">
+                    <li class="text nav"><a href="#">Inicio</a></li>
+                    <li class="text nav"><a href="#">Quienes Somos</a></li>
+                    <li class="text nav"><a href="#">Menu</a></li>
+                    <li class="text nav"><a href="#">Proyectos</a></li>
+                    <li class="text nav"><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
         <img src="./images/LOGO_.svg" alt="LOGO_" class="logo">
         <div class="tools">
-            <div id="carrito-compras">
+            <div class="carrito-compras">
                 <button class="button-carrito">
                     <img src="./images/carrito_.svg" id="img-carrito" alt="carrito">
                 </button>
-                <div id="carrito">
+                <div class="carrito">
                     <ul class="ul-carrito">
                         <li class="li-carrito gaseosa">
                             <img src="" alt=""/>
@@ -52,32 +54,42 @@
     </header>
     <section class="section-top">
         <h1>Esta Pagina Es De Prueba</h1>
-        <div class="content">
-             <div class="search">
-                 <img src="./images/lupa.png" alt="search">
-                 <input type="text" placeholder="Buscar....">
-                 <button class="localización">
-                    <img src="./images/herramienta.png" alt="localización">
-                    <span class="new-york">new york</span>
-                 </button>
-                 <span class="people">people</span>
+        <div class="search">
+            <div class="contenedor-search">
+                <img src="./images/lupa.png" class="search-icon" alt="search">
+                <input class="buscador" type="text" placeholder="Buscar....">
+            </div>
+            <div class="contenedor-filtros">
+                <button class="localización">
+                   <img src="./images/herramienta.png" class="localizacion-icon" alt="localización">
+                   <span class="new-york">new york</span>
+                </button>
+                <span class="people">people</span>
             </div>
         </div>
         <nav class="nav-tools">
             <ul class="nav">
-                <li class="text nav"><a href="#">Romantic</a></li>
-                <li class="text nav"><a href="#">Adult Party</a></li>
-                <li class="text nav"><a href="#">Delivery</a></li>
-                <li class="text nav"><a href="#">Great For a Party</a></li>
-                <li class="text nav"><a href="#">Exotic</a></li>
-                <li class="text nav"><a href="#">Catering</a></li>
-                <li class="text nav"><a href="#">Restaurant</a></li>
+                <li class="text-nav"><a href="#">Adult Party</a></li>
+                <li class="text-nav"><a href="#">Romantic</a></li>
+                <li class="text-nav"><a href="#">Delivery</a></li>
+                <li class="text-nav"><a href="#">Great For a Party</a></li>
+                <li class="text-nav"><a href="#">Exotic</a></li>
+                <li class="text-nav"><a href="#">Catering</a></li>
+                <li class="text-nav"><a href="#">Restaurant</a></li>
             </ul>
         </nav>
-        <img src="./images/img_background_v01_.png" alt="img_background_v01_">
-        
-     </section>
+    </section>
+    <script src="./js/main.js"></script>
+ </body>
+ </html>
+
+
+
+
+
                  
+
+        
                  
                  
                 
@@ -86,8 +98,6 @@
         
     
  
-     <script src="./js/main.js"></script>
- </body>
 
 
                         
@@ -99,4 +109,3 @@
                                 
                             
                         
-</html>

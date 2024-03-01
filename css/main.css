@@ -5,60 +5,174 @@ body{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+img{
+    display: inline-block;
+}
 .menu-arriba{
-    
     height: 50px;
-    background-color: #8654e259;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+.contenedor-menu, .logo, .tools{
+    display: block;
+}
+.label-nav-bar{
+    border: 0;
+    background: transparent;
+} 
+.nav-bar{
+    display: none;
 }
 .menu-icono{
     width: 30px;
     height: 30px;
     padding: 10px;
-    display: inline-block;
+    border: 0;
+    background: transparent;
 }
+      
 .logo{
     width: 100px;
-    height: 100px;
-    padding: 10px;
-    position: relative;   
-    top: -213px;
-    right: 350px;
-    left: 350px;
-
-    display: inline-block;
 }
 .tools{
     color: rgb(24, 24, 24);
     text-decoration: none;
     list-style: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
+}
+.carrito-compras, .button-usuario{
     display: inline-block;
 }
-
+.carrito{
+    display: none; 
+}
 .button-carrito{
-    width: 40px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2px;
-    display: inline-block;
-    
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    border-color: #ffffff00;
+    background: transparent;
 }
 .button-usuario{
-    width: 36px;
-    height: 40px;
+    width: 30px;
+    padding: 5px;
+    border: 0;
+    background: transparent;
+}
+/*SECTION-TOP*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffffff;
     padding: 0;
     margin: 0;
-    position: absolute;
-    top: 3px;
-    right: 80px;
-    display: inline-block;
-
+    display: block;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(100, 68, 68);
 }
+.section-top{
+    display: flex;
+    flex-direction: column;
+    background-image:url("../images/img_background_v01_.png");
+    background-size: cover;
+    background-position: center;
+}
+.search{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 90%;
+    background-color: #ffffff;
+    max-width: 900px;
+    border-radius: 25px;
+    justify-content: space-between;   
+}
+.contenedor-search{
+    display: flex;
+    width: calc(100% - 137px);
+}
+.buscador{
+    width: calc(100% - 0px);
+    border: 0;   
+}
+.search-icon{
+    height: 30px;
+    border: 0;
+    padding: 5px;
+}
+.contenedor-filtros{
+    display: flex;
+}
+.localizacion-icon{
+    width: 15px;
+}
+.localización{
+    border: 0;
+    border-left: 10px;
+    background: transparent;
+}
+.new-york{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.people{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.nav-tools, .nav, .text-nav{
+    padding: 10px ;
+    display: inline-block;
+    justify-content: space-between;
+}
+.nav{
+    text-decoration: none;
+    color: #0e0d0d;
+}
+.text-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #fafafa;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+
+
+
+    
+  
+
+   
+   
+    
+  
+    
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
 
 
 
